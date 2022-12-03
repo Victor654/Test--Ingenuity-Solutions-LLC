@@ -89,9 +89,4 @@
             </div>
         </div>
     </div>
-    <script>
-        const url_base = "{{ secure_url('') }}";
-        const url_register = "{{route('register.book')}}";
-        const url_edit = "{{route('edit.book')}}";
-    </script>
 @endsection
